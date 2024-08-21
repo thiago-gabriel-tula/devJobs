@@ -1,0 +1,182 @@
+@media (max-width: 900px) {
+
+    /* Cabecera de Bienvenida */
+    .cerrar-sesion{
+        flex-wrap:wrap;
+    }
+
+    .cerrar-sesion p{
+        display:inline-block;
+        width: 50%;
+        line-height: 76px;
+        font-weight: 700;
+    }
+
+    .cerrar-sesion .administracion{
+        display:inline-block;
+        width:100%;
+        margin-bottom:1rem;
+    }
+
+    /* Global */
+    .nombre-sitio{
+        flex-wrap: wrap;
+    }
+
+    .tagline{
+        font-size: 20px;
+    }
+
+    .btn{
+        text-align: center;
+    }
+
+    .lista-vacantes h2{
+        font-size: 30px;
+    }
+
+    #puesto{
+        font-size: 24px !important;
+    }
+
+    .site-header{
+        min-height: 343px;
+    }
+
+    .site-header.contenedor.separador h2{
+        font-size: 2.7rem;
+    }
+
+    /* vacante handlebars */
+    .vacante-contenedor h2{
+        font-size: 2.1rem;
+    }
+
+    .btn.btn-azul.editar-btn.editar-vacante-btn{
+        padding: 1rem 4rem;
+        margin-bottom: 40px;
+    }
+
+    .enviar-datos h2{
+        font-size: 2.6rem;
+    }
+
+    .datos-reclutador{
+        display:block;
+    }
+
+    .contenedor.datos-reclutador .enviar-datos{
+        overflow-x: hidden;
+    }
+
+    .enviar-datos p{
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
+
+    .info-reclutador h2 {
+        font-size: 2rem;
+    }
+
+    /* editar-vacante handlebars */
+    .botones.separador .btn:first-child {
+        width: 269px;
+        margin-bottom: 1rem;
+    }
+
+    .panel-administracion .vacante .caja .puesto{
+        font-size: 2rem;
+    }
+
+    .panel-administracion .vacante .caja .candidatos{
+        font-size: 1.6rem;
+    }
+
+    .panel-administracion .vacante .caja:first-child{
+        margin-bottom:1.5rem;
+    }
+
+    .panel-administracion .vacante .centrar-vertical{
+        justify-content: center;
+    }
+
+    .panel-administracion .vacante .centrar-vertical a{
+        width: 100%;
+    }
+
+    /* candidatos handlebars */
+    .lista-candidatos h2{
+        font-size: 2.6rem;
+    }
+
+    .lista-candidatos .candidato .caja .nombre{
+        font-size: 2rem;
+    }
+
+
+    /*  nuevaVacante handlebars   */
+    .default-form.nueva-vacante{
+        max-width: auto;
+        margin:0;
+        padding: 0;
+    }
+
+    .default-form h3{
+        font-size: 2rem;
+    }
+
+
+    /* Editar-perfil handlebars */
+    .default-form.editar-perfil{
+        max-width: auto;
+        margin:0;
+        padding: 0;
+    }
+
+    .default-form.editar-perfil .campo .btn{
+        font-size: 1.6rem;
+    }
+
+    /* iniciar-sesion handlebars */
+    .campo.acciones .primera{
+        margin-bottom: 1.7rem;
+    }
+
+
+
+    /* reestablecer-password handlebars */
+    .campo .nuevo-password{
+        font-size: 1.6rem;
+        margin: 0 auto;
+        padding: 1.4rem 2rem;
+        text-transform:none;
+    }
+    
+
+    /* nuevo-password */
+    .campo label{
+        margin-bottom:1rem;
+    }
+
+    .campo .guardar{
+        font-size: 1.6rem;
+        margin: 0 auto;
+        padding: 1.4rem 2rem;
+        text-transform:none;
+    }
+
+    /* Error handlebars */
+    .error__estado{
+        font-size: 3rem;
+
+    }
+}
+
+
+/* ===============================MAS CHICO======================================= */
+
+@media (max-width: 350px){
+    .titulo{
+        font-size: 50px;
+    }
+}
