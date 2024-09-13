@@ -37,6 +37,8 @@ app.engine('handlebars',
 dotenv.config({ path: path.join(__dirname, 'variables.env') });
 
 app.set('view engine', 'handlebars');
+app.set('views', path.join(__dirname, 'views'));
+
 
 // Habilitar bodyParser
 app.use(bodyParser.json());
