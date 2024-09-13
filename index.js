@@ -97,5 +97,6 @@ app.use((error, req, res, next)=>{
 })
 
 
+const puerto = process.env.PORT || 3000;
 
-app.listen(5000, ()=> console.log('Escuchando en el puerto ' + process.env.PUERTO))
+app.listen(puerto, ()=> console.log('Escuchando en el puerto ' + puerto))
