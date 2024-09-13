@@ -34,7 +34,7 @@ app.engine('handlebars',
     
 )
 
-dotenv.config({path: 'variables.env'});
+dotenv.config({ path: path.join(__dirname, 'variables.env') });
 
 app.set('view engine', 'handlebars');
 

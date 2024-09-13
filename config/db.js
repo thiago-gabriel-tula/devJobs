@@ -32,9 +32,11 @@
 
 // =======================================================================================================================
 const mongoose = require('mongoose');
+const path = require('path');
+
 
 const dotenv = require('dotenv')
-dotenv.config({path: 'variables.env'});
+dotenv.config({ path: path.join(__dirname, 'variables.env') });
 
 // conectarse a la base de datos
 mongoose.connect(process.env.DATABASE);

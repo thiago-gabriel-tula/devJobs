@@ -1,8 +1,11 @@
 const dotenv = require('dotenv');
+const path = require('path');
+
 // import SibApiV3Sdk from '@sendinblue/client';
 const SibApiV3Sdk = require('sib-api-v3-sdk');
 
-dotenv.config({path: 'variables.env'});
+dotenv.config({ path: path.join(__dirname, 'variables.env') });
+
 
 // Configurar Sendinblue (Brevo)
 
